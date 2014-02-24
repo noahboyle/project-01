@@ -310,11 +310,11 @@ $grid-float-breakpoint-max: ($grid-float-breakpoint - 1) !default;
 //##
 
 // Basics of a navbar
-$navbar-height:                    80px !default;
-$navbar-margin-bottom:             $line-height-computed !default;
+$navbar-height:                    120px !default;
+$navbar-margin-bottom:             0px !default;
 $navbar-border-radius:             0px !default;
 $navbar-padding-horizontal:        floor(($grid-gutter-width / 2)) !default;
-$navbar-padding-vertical:          (($navbar-height - $line-height-computed) / 1.7) !default;
+$navbar-padding-vertical:          (($navbar-height - $line-height-computed) / 7) !default;
 $navbar-collapse-max-height:       340px !default;
 
 $navbar-default-color:             #33BDB6 !default;
@@ -322,8 +322,8 @@ $navbar-default-bg:                #33BDB6 !default;
 $navbar-default-border:            darken($navbar-default-bg, 6.5%) !default;
 
 // Navbar links
-$navbar-default-link-color:                #777 !default;
-$navbar-default-link-hover-color:          #333 !default;
+$navbar-default-link-color:                white !default;
+$navbar-default-link-hover-color:          #022377 !default;
 $navbar-default-link-hover-bg:             transparent !default;
 $navbar-default-link-active-color:         #555 !default;
 $navbar-default-link-active-bg:            darken($navbar-default-bg, 6.5%) !default;
