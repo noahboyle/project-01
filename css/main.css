@@ -5582,6 +5582,25 @@ Variations on tag below allows us to write code for browsers below internet expl
 .boom {
   padding-top: -200px; }
 
+.billboard.-overlay {
+  position: relative; }
+
+.billboard.-overlay .billboard-src {
+  position: relative;
+  z-index: -1; }
+
+.billboard.-overlay .billboard-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  color: #000;
+  background-color: rgba(79, 203, 193, 0.8); }
+
+.billboard-text > * {
+  margin: 0; }
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
