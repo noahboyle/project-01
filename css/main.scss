@@ -122,10 +122,34 @@ Variations on tag below allows us to write code for browsers below internet expl
 				
 				 }
 				 
+				 
+
+				 
 .navbar {
 	background: #4FCBC1;
 	border: transparent;
 	
+	
+}
+
+.navbar2 {
+	height:40px;
+	background: #4FCBC1;
+	text-color: black;
+	
+}
+
+.glyphicon{
+	padding-top: 8px;
+	padding-left: 10px;
+	background:#4FCBC1;
+	fill: white;
+}
+
+
+
+.navbar2-header {
+	text-color: white;
 	
 }
 
@@ -138,6 +162,30 @@ Variations on tag below allows us to write code for browsers below internet expl
 .container1 {
 	padding: 16px 16px;
 	
+	
+	
+}
+
+.container2 {
+	padding: 16px 16px;
+	
+}
+
+.container3 {
+	padding: 10px 50px;
+	fill: white;
+	
+	
+}
+
+
+
+.col-lg-6 {
+	
+	border-top-width: 2px;
+	border-top-color: #022377;
+	border-top-style: solid;
+	padding-top: 1em;
 	
 	
 }
@@ -188,7 +236,90 @@ Variations on tag below allows us to write code for browsers below internet expl
  }
 
 
+ 
+ .billboard.-overlay2 .billboard-src2 {
+   position: relative;
+   z-index: -1;
+   
+ }
+ 
+ .billboard.-overlay2 .billboard-src3 {
+   position: relative;
+   z-index: -1;
+   height: 700px;
+ }
+ 
+ .billboard.-overlay2 .billboard-text2 {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   padding:20px;
+   color: #2a6496;
+   background-color: white;
+ }
 
+.pull-right{
+	padding-right: 10px;
+	padding-top: 8px;
+	
+}
+
+.container2 .row{
+	padding-bottom: 10px;
+	padding-top: 10px;
+	
+}
+
+.browse-book{
+	position: relative;
+margin-bottom: 2em;
+-webkit-transition: opacity .2s ease;
+-moz-transition: opacity .2s ease;
+-o-transition: opacity .2s ease;
+transition: opacity .2s ease;
+}
+
+.browse-book:hover .browse-actions{
+	opacity:1;
+}
+
+.browse-book .browse-info{
+	
+	-webkit-transition: opacity .2s ease;
+-moz-transition: opacity .2s ease;
+-o-transition: opacity .2s ease;
+transition: opacity .2s ease;
+opacity: 0;
+position: absolute;
+top: 0;
+left: 0;
+background-color: #6cbde5;
+width: 100%;
+padding: 1em;
+
+}
+
+.browse-book .browse-info .browse-action{
+	
+	-webkit-transition: opacity .2s ease;
+-moz-transition: opacity .2s ease;
+-o-transition: opacity .2s ease;
+transition: opacity .2s ease;
+opacity: 0;
+position: absolute;
+bottom: -2px;
+left: 0;
+width: 100%;
+}
+
+.stack{
+z-index: 80;
+position: absolute;	
+width: 1050px;
+
+	
+}
 
 /* ==========================================================================
    Helper classes
