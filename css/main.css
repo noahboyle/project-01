@@ -4241,7 +4241,7 @@ a.list-group-item.active > .badge,
   padding: 30px;
   margin-bottom: 30px;
   color: white;
-  background-color: blue; }
+  background-color: rgba(253, 50, 87, 0.6); }
   .jumbotron h1,
   .jumbotron .h1 {
     color: white; }
@@ -5686,18 +5686,9 @@ Variations on tag below allows us to write code for browsers below internet expl
   .container7 .padder {
     padding-left: 50px; }
   .container7 .media-heading {
-    border-top-width: 15px;
-    border-top-color: #4FCBC1;
-    border-top-style: solid;
-    border-bottom-width: 15px;
-    border-bottom-color: #4FCBC1;
+    
     border-bottom-style: solid;
-    border-left-width: 15px;
-    border-left-color: #FD3257;
-    border-left-style: solid;
-    border-right-width: 15px;
-    border-right-color: #FD3257;
-    border-right-style: solid;
+    
     margin-bottom: 40px;
     font-size: 4em; }
 
@@ -5850,13 +5841,7 @@ Variations on tag below allows us to write code for browsers below internet expl
     width: 100%;
     height: 100%;
     position: right; }
-  .single #focusedInput {
-    -moz-box-shadow: 0 0 100px rgba(253, 50, 87, 0.8);
-    box-shadow: 0 0 100px rgba(253, 50, 87, 0.8); }
-  .single #focusedInput2 {
-    -moz-box-shadow: 0 0 50px rgba(0, 0, 255, 0.8);
-    box-shadow: 0 0 50px rgba(0, 0, 255, 0.8); }
-  .single .panel panel-body {
+    .single .panel panel-body {
     box-shadow: #FD3257; }
   .single h3 {
     font-family: "ArquitectaBold", Helvetica, Arial, sans-serif;
